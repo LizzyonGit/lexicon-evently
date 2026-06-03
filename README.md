@@ -12,7 +12,7 @@ Uppgiften är att göra en sida enligt nedanstående bilder, text och kod-stycke
 * Klona detta repo och använd som grund.
 * Använd de variabler ni anser aktuella av de ni får i style.css som grund för sidans design.
 * Ni ska lösa uppgiften enligt den design som anges i bilderna.
-* Sidan ska vara responsiv och se bra ut oavsett storlek från ca 300px upp till ca 1400px i bredd.
+* Sidan ska vara responsiv och se bra ut oavsett storlek från ca 300px upp till ca 1920px i bredd.
 * Formulär, semantik och navigation ska vara tillgängligt (använd WAVE eller dylikt för att testa).
 * Koden ska vara välformatterad och tydligt strukturerad med en genomtänkt namngivning på klasser samt ev kommentarer.
 * Inga bibliotek som react, bootstrap, tailwind eller dylikt får användas, endast .CSS och .HTML (ev js för hamburgermeny om ni vill göra den, inget annat).
