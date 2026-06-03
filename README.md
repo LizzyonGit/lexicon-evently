@@ -55,15 +55,16 @@ Berätta i korthet:
 Bilderna för designen ligger under Design-mappen och innehåller bilder för de olika vyerna.
 
 ### Desktop
-![Desktop](Design/evently_desktop.png "Desktop")
+<img src="Design/evently_desktop.png" alt="Desktop" style="width:750px;"/>
 
 ### Tablet
 
-![Tablet](Design/evently_tablet.png "Tablet")
+<img src="Design/evently_tablet.png" alt="Tablet" style="width:500px;"/>
 
 ### Mobile
 
-![Mobile](Design/evently_mobile.png "Mobile")
+<img src="Design/evently_mobile.png" alt="Mobile" style="width:350px;"/>
+
 
 
 
