@@ -1,6 +1,6 @@
 # Inlämningsuppgift Evently
 Uppgiften är att göra en sida enligt nedanstående bilder, text och kod-stycken.
-
+--test--
 ## Inlämning
 * Code review är efter lunch fredagen den 12/6.
 * Senaste tiden för inlämning är kl. 12.00 fredagen den 12/6. Det som kommer efter det bedömmer vi inte om det inte finns rimliga skäl.
