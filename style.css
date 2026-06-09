@@ -237,6 +237,18 @@ p {
 /*Button styles*/
 button {
     inline-size: fit-content;
+    background-color: var(--purple-600);
+    border-color: var(--purple-600);
+    color: var(--white);
+    padding-block: calc(var(--spacing) * 2);
+    padding-inline: calc(var(--spacing) * 4);
+    border-radius: 0.5rem;
+    font-weight: 600;
+}
+
+.button-special{
+    background-color: var(--white);
+    color: var(--purple-600);
 }
 
 /*Padding*/
@@ -269,4 +281,12 @@ h2 {
 
 h3 {
     font-size: 1.75rem;
+}
+
+/*tagline styles*/
+.tagline {
+    color: var(--purple-800);
+    background-color: var(--purple-400);
+    font-weight: 700;
+    inline-size: fit-content;
 }
