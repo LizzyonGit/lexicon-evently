@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <div class="wrapper">
     <!-- SVGs -->
 
     <!-- logo icon -->
@@ -95,7 +96,7 @@
     </svg>
 
     <!-- Header -->
-    <header class="header">
+    <header class="header flex flex-col align-items-start">
         Evently
 
         Hem
@@ -109,14 +110,14 @@
 
 
     <!-- Main content -->
-    <main class="flex flex-col align-items-center">
+    <main class="flex flex-col align-items-start">
         <section>
             <div class="flex flex-row">
                 <div class="flex flex-col flex-1">
                     <p class="uppercase">Upptäck. Upplev. Minns.</p>
                     
 
-                    <h2>Hitta lokala evenemang du kommer älska</h2>
+                    <h1>Hitta lokala evenemang du kommer älska</h1>
 
                     <p>Från konserter och marknader till workshops och familjeaktiviteter. Upptäck vad som händer nära dig.</p>
                     <div>
@@ -126,7 +127,7 @@
                 </div>
                 <div class="flex flex-1">
                     <img src="https://picsum.photos/id/158/200/300" alt="konsert med strålkastare och åskadare som lyftar händerna">
-                    <div>
+                    <div class="flex flex-col">
                         <img src="https://picsum.photos/id/351/200" alt="gata på natten med ljusslingor"> 
                         <img src="https://picsum.photos/id/250/200" alt="fotokamera">
                     </div>
@@ -168,31 +169,38 @@
                 Pustervik, Göteborg
                 </div>
 
+                <div class="card">
+
                 Vårmarknad i Slottsskogen
                 Marknad
                 25 maj
                 Slottsskogen, Göteborg
-
+                </div>
+                <div class="card">
                 Keramikkurs för nybörjare
                 Workshop
                 27 maj
                 Studio Lera, Göteborg
-
+                </div>
+                <div class="card">       
                 Barnteater: Den lilla sjöjungfrun
                 Familj
                 31 maj
                 Folkteatern, Göteborg
+                </div>
+                <div class="card">  
 
                 Morgonlöpning & frukost
                 Sport
                 1 juni
                 Slottsskogen, Göteborg
-
-
+                </div>
+                <div class="card">  
                 Jazzkväll på Vasateatern
                 Konsert
                 3 juni
                 Vasateatern, Göteborg
+                </div>
             </div>
         </section>
         <aside>
@@ -221,31 +229,36 @@
     </main>
 
     <!-- Footer -->
-    <footer>
+    <footer class="flex flex-col align-items-start">
+        <div>
+            <div>
         Evently
         Evently samlar lokala evenemang så att du enkelt kan upptäcka, planera och dela upplevelser som berikar din
         vardag.
+            </div>
 
-
+        <div>
         Utforska
         Alla evenemang
         Kategorier
         Helgens tips
-        Populära
-
+        Populära</div>
+            <div>
         Om Evently
         Om oss
         För arrangörer
         Vanliga frågor
-        Nyheter
+        Nyheter</div>
+        <div>
 
         Kontakt
         info@evently.se
         031-123 45 67
         Stora Badhusgatan 18
-        411 21 Göteborg
+        411 21 Göteborg</div>
+    </div>
     </footer>
-
+    </div>
 </body>
 
 </html>

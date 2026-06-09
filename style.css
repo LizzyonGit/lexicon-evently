@@ -178,6 +178,7 @@ p {
   justify-content: center;
 }
 
+
 .justify-between {
   justify-content: space-between;
 }
@@ -194,8 +195,21 @@ p {
   align-items: center;
 }
 
+.align-items-start {
+  align-items: flex-start;
+}
+
+
+.align-between {
+  align-items: space-between;
+}
+
 .self-center {
   align-self: center;
+}
+
+.self-start {
+  align-self: flex-start;
 }
 
 .flex-1 {
@@ -213,8 +227,46 @@ p {
     text-transform: uppercase;
 }
 
+/*wrapper styles*/
+
+.wrapper {
+    inline-size: 75%;
+    margin-inline: auto;
+}
 
 /*Button styles*/
 button {
     inline-size: fit-content;
+}
+
+/*Padding*/
+div {
+    padding: var(--spacing);
+}
+
+p {
+    padding: var(--spacing);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: var(--spacing);
+}
+
+/*image styles*/
+img {
+    border-radius: 0.5rem;
+    padding: var(--spacing);
+}
+
+/*heading styles*/
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.75rem;
 }
