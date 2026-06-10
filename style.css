@@ -273,6 +273,11 @@ nav ul {
    
 }
 
+.search-and-account {
+    gap: calc(var(--spacing)* 3);
+}
+
+
 /*top main styles*/
 .larger-image {
     max-block-size: 100%;
@@ -297,6 +302,11 @@ nav ul {
 .find-section {
     background-color: var(--purple-100);
     
+}
+
+form {
+    inline-size: 100%;
+    gap: var(--spacing);
 }
 
 
@@ -347,6 +357,11 @@ nav ul {
 /*low banner styles*/
 .low-banner {
     background-color: var(--emerald-100);
+    padding: var(--spacing);
+}
+
+i circle {
+    border-color: var(--emerald-800);
 }
 
 
@@ -355,4 +370,5 @@ footer {
     background-color: var(--gray-950);
     color: var(--gray-400);
     font-size: small;
+    padding: var(--spacing);
 }

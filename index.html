@@ -68,13 +68,13 @@
                 <li>Kontakt</li>
             </ul></div>
 
-            <div>
+            <div class="flex align-items-center search-and-account">
                 <!-- spyglass icon -->
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                <i><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                     <circle cx="11" cy="11" r="8"></circle>
                     <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                </svg>
+                </svg></i>
                 <a href="#"><button>Skapa konto</button></a>
                 
             </div>
@@ -112,36 +112,36 @@
         <section>
             <div class="find-section flex flex-wrap">
 
-            <h2>Hitta rätt evenemang</h2>
-            <form action="#" method="post" class="flex flex-wrap">
-                <div class="form-group">
-                    <label for="search">Sökord</label>
-                    <input type="text" id="search" name="search" required>
-                </div>
-                <div class="form-group">
-                    <label for="category">Kategori</label>
-                    <select id="category" name="category">
-                        <option value="">Alla kategorier</option>
-                        <option value="konsert">Konsert</option>
-                        <option value="marknad">Marknad</option>
-                        <option value="workshop">Workshop</option>
-                        <option value="familj">Familj</option>
-                        <option value="sport">Sport / Hälsa</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="date">Datum</label>
+                <h2>Hitta rätt evenemang</h2>
+                <form action="#" method="post" class="flex flex-wrap space-evenly">
+                    <div class="form-group">
+                        <label for="search">Sökord</label>
+                        <input type="text" id="search" name="search" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="category">Kategori</label>
+                        <select id="category" name="category">
+                            <option value="">Alla kategorier</option>
+                            <option value="konsert">Konsert</option>
+                            <option value="marknad">Marknad</option>
+                            <option value="workshop">Workshop</option>
+                            <option value="familj">Familj</option>
+                            <option value="sport">Sport / Hälsa</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Datum</label>
 
-                    <input type="date" id="date" name="date">
-                </div>
-                
-                <button type="submit">Sök evenemang</button>
-            </form>
+                        <input type="date" id="date" name="date">
+                    </div>
+                    
+                    <button type="submit">Sök evenemang</button>
+                </form>
 
             </div>
         </section>
         <section>
-            <div class="flex">
+            <div class="flex space-between align-items-center">
 
             <h2>Populära evenemang</h2>
             <a href="#">Se alla evenemang</a>
@@ -214,42 +214,42 @@
         </section>
         <aside>
             <div class="flex flex-wrap low-banner">
-            <div class="flex-1">
-                <div><!-- ticket icon -->
-                    <svg class="m-1 text-emerald-800" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+            <div class="flex-1 flex">
+                <div class="self-center"><!-- ticket icon -->
+                    <i><svg class="m-1 text-emerald-800" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                         stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                         <path
                             d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v2z">
                         </path>
                         <line x1="9" y1="5" x2="9" y2="19"></line>
-                    </svg>
+                    </svg></i>
                 </div>
                 <div>
                 <h3>Gratis & prisvärt</h3><p>
                 Hitta massor av evenemang som är gratis eller snälla mot plånboken.</p>
                 </div>
             </div>
-                    <div class="flex-1">
-                        <div><!-- people icon -->
-                        <svg class="m-1 text-emerald-800" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    <div class="flex-1 flex">
+                        <div class="self-center"><!-- people icon -->
+                        <i><svg class="m-1 text-emerald-800" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                             <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
                             <circle cx="9" cy="7" r="4"></circle>
                             <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
                             <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                        </svg></div>
+                        </svg></i></div>
                 <div>
                 <h3>För alla åldrar</h3><p>
                 Aktiviteter för både stora och små - hitta något som passar hela familjen.</p>
                 </div>
                     </div>
-                    <div class="flex-1">
-                        <div> <!-- location icon -->
-                            <svg class="m-1 text-emerald-800" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    <div class="flex-1 flex">
+                        <div class="self-center"> <!-- location icon -->
+                            <i><svg class="m-1 text-emerald-800" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                                 <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
                                 <circle cx="12" cy="10" r="3"></circle>
-                            </svg></div>
+                            </svg></i></div>
                 <div>
                 <h3>Nära dig</h3><p>
                     Upptäck evenemang i ditt område och stöd lokala arrangörer.</p>
