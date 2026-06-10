@@ -197,7 +197,9 @@ p {
   flex: 2;
 }
 
-
+.display-inline {
+    display: inline;
+}
 
 
 .uppercase {
@@ -266,6 +268,11 @@ nav {
     inline-size: 100%;
 }
 
+nav ul {
+    gap: calc(var(--spacing) * 3);
+   
+}
+
 /*top main styles*/
 .larger-image {
     max-block-size: 100%;
@@ -297,7 +304,7 @@ nav {
 /*card styles*/
 
 .cards-table {
-    gap: var(--spacing);
+   gap: calc(var(--spacing) * 3);
     
 }
 
@@ -324,10 +331,17 @@ nav {
 
 .card-bottom {
      h3 {
-        font-weight: 500;
+        font-weight: 600;
         font-size: 1rem;
     }
     
+}
+
+.type {
+    color: var(--pink-800);
+    font-weight: 600;
+    background-color: var(--pink-100);
+    display: inline-block;
 }
 
 /*low banner styles*/
