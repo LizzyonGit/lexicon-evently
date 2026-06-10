@@ -52,7 +52,7 @@
 }
 
 img {
-    max-width: 100%;
+    max-inline-size: 100%;
     height: auto;
     display: block;
 }
@@ -207,7 +207,7 @@ p {
 /*wrapper styles*/
 
 .wrapper {
-    inline-size: 75%;
+    inline-size: min(75%, 1000px);
     margin-inline: auto;
 }
 
@@ -260,6 +260,24 @@ h3 {
     font-size: 1.75rem;
 }
 
+/*nav styles*/
+nav {
+    gap: var(--spacing);
+    inline-size: 100%;
+}
+
+/*top main styles*/
+.larger-image {
+    max-block-size: 100%;
+    max-inline-size: 50%;
+}
+
+.smaller-image {
+    max-block-size: 50%;
+    
+}
+
+
 /*tagline styles*/
 .tagline {
     color: var(--purple-800);
@@ -271,14 +289,22 @@ h3 {
 /*find section*/
 .find-section {
     background-color: var(--purple-100);
-    width: 100vw;
+    
 }
 
+
+
 /*card styles*/
+
+.cards-table {
+    gap: var(--spacing);
+    
+}
+
 .card {
-    max-inline-size: 300px;
+    max-inline-size: max(49%, 100%);
     max-block-size: 275px;
-    min-inline-size: 275px;
+    min-inline-size: min(300px, 100%);
     border: 1px solid var(--gray-300);
     border-radius: 0.5rem;
     padding: var(--spacing);
@@ -291,7 +317,7 @@ h3 {
 
 
     img {
-        height: 100%;
+        block-size: 100%;
         object-fit: cover;
     }
 }
@@ -302,4 +328,17 @@ h3 {
         font-size: 1rem;
     }
     
+}
+
+/*low banner styles*/
+.low-banner {
+    background-color: var(--emerald-100);
+}
+
+
+/*footer styles*/
+footer {
+    background-color: var(--gray-950);
+    color: var(--gray-400);
+    font-size: small;
 }
