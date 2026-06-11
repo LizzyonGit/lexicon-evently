@@ -202,7 +202,9 @@ p {
     display: inline;
 }
 
-
+.align-top{
+    vertical-align: top; /*fast solution for evntly and logo next to each other in footer, in nav I used flex for this*/
+}
 
 .uppercase {
     text-transform: uppercase;
@@ -275,6 +277,10 @@ h3 {
     font-size: clamp(1.3rem, 1rem + 2vw, 1.5rem);
 }
 
+footer h3, aside h3 {
+    font-size: clamp(1rem, 0.95rem + 2vw, 1.25rem);
+}
+
 /*nav styles*/
 nav {
     gap: var(--spacing);
@@ -336,7 +342,7 @@ form {
 
 .card {
     max-inline-size: max(49%, 100%);
-    max-block-size: 275px;
+    /*max-block-size: 275px; turns out this is not needed*/
     min-inline-size: min(300px, 100%);
     border: 1px solid var(--gray-300);
     border-radius: 0.5rem;
@@ -380,12 +386,20 @@ form {
 
 /*low banner styles*/
 .low-banner {
-    background-color: var(--emerald-100);
+    background-color: var(--mint-50);
     padding: var(--spacing);
+
+
+
 }
 
-i circle {
-    border-color: var(--emerald-800);
+
+
+.icon-div svg {
+    outline: 6px solid var(--emerald-100); /*creates a line outside the border so icon does not become smaller*/
+    border-radius: 50%;
+    background-color: var(--emerald-100);
+    
 }
 
 
@@ -410,6 +424,14 @@ footer {
 
 
 /* media queries */
+@media (min-width: 551px) {
+    .flex-2-md {
+    flex: 2;
+}
+}
+
+
+
 @media (min-width: 940px) {
     .display-none-large {
     display: none;
