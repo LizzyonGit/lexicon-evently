@@ -356,7 +356,7 @@ nav ul {
 /*tagline styles*/
 .tagline {
     color: var(--purple-800);
-    background-color: var(--purple-400);
+    background-color: var(--purple-100);
     font-weight: 700;
     inline-size: fit-content;
 }
