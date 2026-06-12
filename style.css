@@ -469,7 +469,7 @@ footer {
 
 
 /*list a styles*/
-nav li a:hover, nav i:hover {
+nav li a:hover, nav i a:hover {
     color: var(--pink-800);
 }
 footer li a:hover {
