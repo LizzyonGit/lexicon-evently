@@ -237,12 +237,41 @@ button {
 .button-special{
     background-color: var(--white);
     color: var(--purple-600);
+
+    a {
+     &:focus,
+     &:focus-visible, 
+     &:hover {
+    background-color: contrast-color(var(--white));
+    color: contrast-color(var(--purple-600));
+    outline: 0; }}
 }
 
 .buttons {
     gap: calc(var(--spacing)*3);
     
 }
+
+/*a styles to make hover cover button*/
+ button a{
+    display: block;
+    inline-size: 100%;
+    block-size: 100%;
+    
+    
+  }
+
+  button, button a {
+     &:focus,
+     &:focus-visible, 
+     &:hover {
+    background-color: contrast-color(var(--purple-600));
+    color: contrast-color(var(--white));
+    outline: 0;
+   
+   }
+
+  }
 
 /*Padding*/
 div {
