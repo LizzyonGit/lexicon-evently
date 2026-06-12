@@ -319,7 +319,7 @@ h3 {
 }
 
 footer h3, aside h3 {
-    font-size: clamp(1rem, 0.95rem + 2vw, 1.25rem);
+    font-size: clamp(0.9rem, 0.85rem + 2vw, 1.15rem);
 }
 
 /*nav styles*/
@@ -438,6 +438,10 @@ form {
 .low-banner {
     background-color: var(--mint-50);
     padding: var(--spacing);
+
+    h3 {
+        font-weight: 600;
+    }
 
 
 
