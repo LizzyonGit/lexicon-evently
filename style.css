@@ -368,6 +368,10 @@ form {
     gap: var(--spacing);
 }
 
+/*link styles*/
+.link-all:hover {
+    color: var(--purple-800);
+}
 
 
 
@@ -459,12 +463,24 @@ footer {
     color: var(--gray-100);
 }
 
-/*icon styles*/
+
+
+
+
 
 /*list a styles*/
-li a:hover {
+nav li a:hover, nav i:hover {
+    color: var(--pink-800);
+}
+footer li a:hover {
     color: var(--white);
 }
+
+/*icon styles*/
+footer i a:hover {
+    color: var(--pink-800);
+}
+
 
 
 /* media queries */
