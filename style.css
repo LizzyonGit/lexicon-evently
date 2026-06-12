@@ -238,13 +238,7 @@ button {
     background-color: var(--white);
     color: var(--purple-600);
 
-    a {
-     &:focus,
-     &:focus-visible, 
-     &:hover {
-    background-color: contrast-color(var(--white));
-    color: contrast-color(var(--purple-600));
-    outline: 0; }}
+   
 }
 
 .buttons {
@@ -272,6 +266,16 @@ button {
    }
 
   }
+
+  .button-special {
+     
+     &:focus,
+     &:focus-visible, 
+     &:hover {
+    background-color: contrast-color(var(--white));
+    color: contrast-color(var(--purple-600));
+    outline: 0; 
+  }}
 
 /*Padding*/
 div {
@@ -455,6 +459,12 @@ footer {
     color: var(--gray-100);
 }
 
+/*icon styles*/
+
+/*list a styles*/
+li a:hover {
+    color: var(--white);
+}
 
 
 /* media queries */
@@ -469,6 +479,18 @@ footer {
 @media (min-width: 940px) {
     .display-none-large {
     display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+
+
+    
 }
 }
 
